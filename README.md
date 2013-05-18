@@ -64,27 +64,21 @@ Here is a break down of the dependencies we use. For the complete and precise
 reference read below.
 
  - AVR GCC:
-
     compiler for AVR C (http://www.nongnu.org/avr-libc/)
 
  - OpenCV:
-
  	from Willow Garage (opencv.willowgarage.com)
 
  - BlueZ:
-
     for bluetooth communication (http://www.bluez.org/)
 
  - LibUSB:
-
     for linux (http://www.libusb.org/)
 
  - POSIX Threads:
-
     with GCC (http://gcc.gnu.org/)
 
  - V-USB:
-
     from Obdev (http://www.obdev.at/products/vusb/index.html)
 
 Building from source
