@@ -1,5 +1,5 @@
 IPPNAR - Intelligent Path Planning and Navigation for Autonomous Robots
-=================
+=============================================================================
 
 This is the readme file for IPPNAR. 
 
@@ -9,16 +9,16 @@ construct an autonomous rover which could navigate through a set of waypoints
 provided as GPS coordinates while avoiding any obstacle encountered. The goal
 was also to keep the rover on the road.
 
-More information can be found as comments in source or at http://by2.in/ippnar
+More information can be found as comments in source or [here](http://by2.in/ippnar)
 
 Contents
 --------
- - License
- - Hardware requirements
- - What is in this package
- - Dependencies
- - Building from source
- - Getting help
+ * License
+ * Hardware requirements
+ * What is in this package
+ * Dependencies
+ * Building from source
+ * Getting help
 
 License
 -------
@@ -33,10 +33,10 @@ Hardware requirements
 This project was developed on Eclipse CDT running on a Fedora 8 machine.
 
 Parts used:
- - Fedora 8 running on Dell Studio
- - AVR Mega8 x 3
- - Compass module from Sparkfun Electronics
- - Nokia smartphone with GPS, Bluetooth and J2ME support
+ * Fedora 8 running on Dell Studio
+ * AVR Mega8 x 3
+ * Compass module from Sparkfun Electronics
+ * Nokia smartphone with GPS, Bluetooth and J2ME support
  
 Please note that the parts mentioned above are in no way exaustive, and
 definitely not rigid. Almost all parts can be removed easily with minimal
@@ -48,20 +48,12 @@ What is in this package
 This package contains the source code of core control module and other helper
 modules.
 
-You will find the source code here:
-
-	|-- CommandModule
-	|-- CompassReader
-	|-- GPS_J2ME_Applet
-	`-- MotorDriverUnit
-
-Here is a list of projects in this distribution and what they do.
-
- - CommandModule: the core project, includes the blackboard and control module;
- - CompassReader: contains microcontroller code to read the compass;
+Here is a list of projects in this distribution and what they do:
+ - CommandModule: the core project, includes the blackboard and control module
+ - CompassReader: contains microcontroller code to read the compass
  - GPS_J2ME_Applet: contains a J2ME application to read GPS data and transmit over
-   bluetooth to command module;
- - MotorDriverUnit: drives the robot based on instructions from command module;
+   bluetooth to command module
+ - MotorDriverUnit: drives the robot based on instructions from command module
 
 Dependencies
 ------------
@@ -100,13 +92,6 @@ Building from source
 
 to be updated later
 
-Migrating from 1.4
-------------------
-
-This file is a copy of the migration guide from available on our Wiki:
-
-    http://cwiki.apache.org/WICKET/migrate-15.html
-    
 Getting help
 ------------
 
