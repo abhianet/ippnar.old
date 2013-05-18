@@ -67,7 +67,7 @@ reference read below.
     compiler for AVR C (http://www.nongnu.org/avr-libc/)
 
  - OpenCV:
- 	from Willow Garage (opencv.willowgarage.com)
+ 	from Willow Garage (http://opencv.willowgarage.com/)
 
  - BlueZ:
     for bluetooth communication (http://www.bluez.org/)
