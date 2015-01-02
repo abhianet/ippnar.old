@@ -95,5 +95,4 @@ Getting help
 
  - Ask at Obdev forums
 
- - Send a complete message containing your problem, stacktrace and problem
-   you're trying to solve to me (abhishekkumar [at] live [dot] com)
+ - Create an issue with complete message containing your problem, stacktrace and problem you're trying to solve
